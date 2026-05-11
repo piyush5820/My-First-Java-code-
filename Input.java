@@ -2,14 +2,20 @@ import java.util.Scanner;
 public class Input {
     public static void main(String[] args) {
         System.out.println("hello");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter number 1");
-        int a = sc.nextInt();
-        System.out.println("enter number 2");
-        int b = sc.nextInt();
-        int Sum = a+b;
-        System.out.println("The sum of Two numbers is :");
-        System.out.println(Sum);
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter number 1");
+         int a = sc.nextInt();
+         System.out.println("enter number 2");
+         int b = sc.nextInt();
+         int Sum = a+b;
+         System.out.println("The sum of Two numbers is :");
+         System.out.println(Sum);
+        // System.out.println("enter string");
+        // String str = sc.next();    //input= hello i am piyush but output is hello 
+      
+        //  String str = sc.nextLine(); //input= hello i am piyush and output is same 
+        // System.out.println(str);  
+
 
     }
 
