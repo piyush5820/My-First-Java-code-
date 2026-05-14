@@ -12,6 +12,11 @@ public class set1 {
 
         System.out.println(cgpa + "%");
 
+    System.err.println("What is your name ?");
+    String name = sc.next();
+    System.out.println("Hello "+ name +" have a good day");
+
+
     }
     
 }
