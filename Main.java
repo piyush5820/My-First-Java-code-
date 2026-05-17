@@ -13,6 +13,7 @@ public class Main {
         int sum = num1 + num2 +num3 ;
         System.out.print("The sum of Given numbers: ");
         System.out.println(sum);
+        System.out.print("Thank you...");
 
         // byte age = 34;
         // int age2 = 56;
